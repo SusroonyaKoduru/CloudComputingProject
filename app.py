@@ -11,13 +11,14 @@ from skimage.transform import resize
 import matplotlib.pyplot as plt 
 import tensorflow as tf 
 import numpy as np 
+import pickle
 
 print("Loading model") 
 global sess
 sess = tf.Session()
 set_session(sess)
 global model 
-model = load_model('model.h5') 
+model = pickle.load(open('model.pkl','rb))
 global graph
 graph = tf.get_default_graph()
 
