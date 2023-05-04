@@ -18,7 +18,7 @@ global sess
 #sess = tf.Session()
 #set_session(sess)
 global model 
-model = load_model('model_resnet.h5')
+model = pickle.load(open('model.pkl','rb'))
 #global graph
 #graph = tf.get_default_graph()
 
