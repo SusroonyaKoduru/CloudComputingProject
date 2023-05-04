@@ -6,4 +6,4 @@ scikit-image
 matplotlib
 scikit-learn
 Flask
-
+gunicorn
