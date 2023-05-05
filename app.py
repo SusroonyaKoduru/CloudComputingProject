@@ -16,7 +16,7 @@ import h5py
 
 
 print("Loading model") 
-global sess
+#global sess
 #sess = tf.Session()
 #set_session(sess)
 global model 
@@ -51,7 +51,7 @@ def prediction(filename):
     index = np.argsort(probabilities)
     predictions = {
         "class1":number_to_class[index[6]],
-		"class2":number_to_class[index[5]],
+	"class2":number_to_class[index[5]],
       }
     #Step 5
     return render_template('predict.html', predictions=predictions)
