@@ -12,13 +12,16 @@ import matplotlib.pyplot as plt
 import tensorflow as tf 
 import numpy as np 
 import pickle
+import h5py
+
 
 print("Loading model") 
 global sess
 #sess = tf.Session()
 #set_session(sess)
 global model 
-model = pickle.load(open('model.pkl','rb'))
+# Open the .h5 file
+model = load_model('model.h5')
 #global graph
 #graph = tf.get_default_graph()
 
@@ -36,7 +39,7 @@ def prediction(filename):
     #Step 1
     my_image = plt.imread(os.path.join('uploads', filename))
     #Step 2
-    my_image_re = resize(my_image, (48,48,3))
+    my_image_re = resize(my_image, (64,64,3))
     
     #Step 3
     #with graph.as_default():
