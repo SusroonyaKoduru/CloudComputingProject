@@ -14,6 +14,6 @@ Testing a deployed computer vision model in a robust way can be challenging. The
  
  
  # Team Members:
- Susroonya Koduru (2141702) 
- Varshitha Challa (2156555)
- Janaki Obillaneni (2149246)
+ Susroonya Koduru (2141702) <br/>
+ Varshitha Challa (2156555) <br/>
+ Janaki Obillaneni (2149246) 
