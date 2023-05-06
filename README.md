@@ -9,6 +9,11 @@ Testing a deployed computer vision model in a robust way can be challenging. The
  
  **uploads** folder is the one where all the images uploaded by users are stored.
  
- We have other files which are used for runtime purpose where we have specified all the required libraries for our project and the runtime environment versions.
+ We have other files (requirements.txt, runtime.txt, Procfile and Dockerfile) which are used for **runtime purpose** where we have specified all the required libraries for our project and the runtime environment versions.
  
  
+ 
+ Team Members:
+ Susroonya Koduru (2141702)
+ Varshitha Challa (2156555)
+ Janaki Obillaneni (2149246)
