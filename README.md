@@ -9,6 +9,6 @@ Testing a deployed computer vision model in a robust way can be challenging. The
  
  **uploads** folder is the one where all the images uploaded by users are stored.
  
- We have other files which are used for runtime purpose.
+ We have other files which are used for runtime purpose where we have specified all the required libraries for our project and the runtime environment versions.
  
  
